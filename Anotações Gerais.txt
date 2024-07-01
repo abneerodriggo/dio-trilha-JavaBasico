@@ -1,0 +1,93 @@
+### Anotações gerais:
+
+- Requisitos para iniciação do estudo Java:
+
+Ter o pacote JDK instalado em sua máquina, ter a sua IDE preferida para o desenvolvimento, e ter o diretório do projeto estabelecido.
+
+- Anatomia da Classe:
+
+O porque das regras ou estruturas existirem na linguagem.
+
+## Tipos primitivos em Java:
+
+int, byte, short, long, float, double, boolean e char
+
+**Obs:** Encerrar com "**F**" aos valores atribuídos à tipos de variáveis  **float**, e "**L**" nos tipos de variáveis **long** ,para que não haja a possibilidade do programa identificar como um erro de sintaxe quanto a utilização da variável correta. *ex: float pi = 3.14F / long cpf = 98765432109L*
+
+**Obs:** Em casos de **variáveis com valores constantes** em sua atribuição, se faz necessário **escrevê-la em caixa alta** e utilizando a palavra reservada ***final*** antes de declarar o tipo da mesma. *ex: final double VALOR_DE_PI = 3.14*
+
+## Operadores:
+
+- ***Operadores de atribuição*** - Representado pelo símbolo de igualdade `"=".`
+
+O operador de atribuição é utilizado para definir o valor inicial ou sobrescrever um valor já existente de uma variável. Em Java, definimos um tipo, nome e opcionalmente atribuímos um valor à variável através do operador de atribuição. Ex: String nome **=** "Abner" ; int idade **=** 29;
+
+
+
+- ***Operadores aritméticos** -* O operador aritmético, é utilizado para realizar operações matemáticas entre valores numéricos.
+
+Representação dos operadores aritméticos: **+** (adição), **-**(subtração), *****   (multiplicação) , **/**  (divisão) e **%** (módulo ou resto de uma divisão.)
+
+Ex: double soma = 10.5 + 15.5; int subtracao = 110 - 35; int multiplicacao = 20 * 5; int divisao = 30 / 5; int modulo = 30 % 5; 
+
+**Obs:** O operador de adição (+), quando utilizado em variáveis tipo texto, realizará a concatenação de textos (Pegar uma palavra e juntar com outra, como se estivess). Ex: String nomeCompleto = "LINGUAGEM" + "JAVA" (exemplificado na IDE intellij).
+
+
+
+- ***Operadores Unários** -* Esses operadores, são aplicados juntamente com um outro operador aritmético. Eles realizam alguns trabalhos básicos como incrementar, decrementar, inverter valores numéricos e booleanos.
+
+  
+
+  (+) **Operador unário de valor positivo** – números são positivos sem esse operador explicitamente;
+
+  (-) **Operador unário de valor negativo** – nega um número ou expressão aritmética;
+
+  (++) **Operador unário de incremento de valor** – incrementa o valor em 1 unidade;
+
+  (--) **Operador unário de decremento de valor** – decrementa o valor em 1 unidade;
+
+  (!) **Operador unário lógico de negação** – nega o valor de uma expressão booleana.
+
+  
+
+- ***Operadores Ternários** -* O operador de condição ternária é uma forma resumida para definir uma condição e escolher por um dentre dois valores. Você deve pensar numa condição ternária, como se fosse uma condição IF , porém, de uma forma em que toda a sua estrutura estará escrita numa única linha.
+
+O operador ternário é representado pelos símbolos `"?" e ":"` utilizados na seguinte estrutura de sintaxe:
+
+```
+<Expressão Condicional> ? <Caso condição seja true>  :  <Caso condição seja false>
+```
+
+*exemplificado na IDE intellij*
+
+
+
+- ***Operadores Relacionais -*** Os operadores relacionais, avaliam a relação entre duas variáveis ou expressões. Neste caso, mais precisamente, definem se o operando à esquerda é igual, diferente, menor, menor ou igual, maior, maior ou igual ao da direita, retornando um valor booleano como resultado.
+
+(==) Quando desejamos verificar se uma variável é IGUAL A outra.
+
+(!=) Quando desejamos verificar se uma variável é DIFERENTE da outra.
+
+(>)  Quando desejamos verificar se uma variável é MAIOR QUE a outra.
+
+(>=) Quando desejamos verificar se uma variável é MAIOR OU IGUAL a outra.
+
+(<) Quando desejamos verificar se uma variável é MENOR QUE outra.
+
+(<=) Quando desejamos verificar se uma variável é MENOR OU IGUAL a outra.
+
+
+
+- ***Operadores Lógicos -*** Os operadores lógicos representam o recurso que nos permite criar expressões lógicas maiores, a partir da junção de duas ou mais expressões.
+
+(&&) Operador Lógico "E"
+
+(||) Operador Lógico "OU"
+
+
+
+## Métodos:
+
+Todas as ações das aplicações são consideradas métodos.
+
+Uma classe é definida por atributos e métodos. Já vimos que atributos são em sua grande maioria, variáveis de diferentes tipos e valores. Os métodos, por sua vez, correspondem a **funções** ou **sub-rotinas** disponíveis dentro de nossas classes.

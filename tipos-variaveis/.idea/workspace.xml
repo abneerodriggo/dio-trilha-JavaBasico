@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b8f03c82-1e5c-466a-943a-dc9a0beb6651" name="Changes" comment="criando um projeto para a aula sobre tipos e variaveis">
+    <list default="true" id="b8f03c82-1e5c-466a-943a-dc9a0beb6651" name="Changes" comment="Atualizações mediante à novos estudos - 30-06-2024">
       <change afterPath="$PROJECT_DIR$/.idea/git_toolbox_prj.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/Operadores.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/OperadoresTernarios.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/TiposVariaveis.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TiposVariaveis.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -77,7 +76,14 @@
       <option name="project" value="LOCAL" />
       <updated>1719617690548</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Atualizações mediante à novos estudos - 30-06-2024">
+      <created>1719800529814</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1719800529814</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -93,6 +99,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="criando um projeto para a aula sobre tipos e variaveis" />
-    <option name="LAST_COMMIT_MESSAGE" value="criando um projeto para a aula sobre tipos e variaveis" />
+    <MESSAGE value="Atualizações mediante à novos estudos - 30-06-2024" />
+    <option name="LAST_COMMIT_MESSAGE" value="Atualizações mediante à novos estudos - 30-06-2024" />
   </component>
 </project>
